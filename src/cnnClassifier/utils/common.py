@@ -5,6 +5,7 @@ from box.exceptions import BoxValueError
 from ensure import ensure_annotations
 from pathlib import Path
 import os
+import json
 
 
 @ensure_annotations
@@ -61,3 +62,22 @@ def get_size(path: Path) -> str:
     """
     size_in_kb = round(os.path.getsize(path) / 1024)
     return f"~ {size_in_kb} KB"
+
+
+@ensure_annotations
+def save_json(path: Path, data: dict):
+    """save json data
+
+    Args:
+        path (Path): path to json file
+        data (dict): data to be saved in json file
+    """
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+
+    logger.info(f"json file saved at: {path}")
+
+
+# @ensure_annotations
+# def load_json():
+#     pass
