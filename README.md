@@ -1,9 +1,9 @@
 # Chicken-Disease-Classification--Project
 
 ## references: 
-- youtube tutorial: https://www.youtube.com/watch?v=p1bfK8ZJgkE&t=8917s
+- youtube tutorial: https://www.youtube.com/watch?v=p1bfK8ZJgkE
 - github project link: 
-        https://github.com/krishnaik06/Chicken-Disease-Classification-Projects/blob/main/template.py
+        https://github.com/krishnaik06/Chicken-Disease-Classification-Projects/
 - github dataset link: 
         https://github.com/entbappy/Branching-tutorial/raw/refs/heads/master/Chicken-fecal-images.zip
 
